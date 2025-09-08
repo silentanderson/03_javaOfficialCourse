@@ -41,7 +41,7 @@ public class Application1 {
         System.out.print("문자열을 입력하세요 : ");
         strIn = sc.nextLine();
         System.out.print("숫자를 입력하세요 : ");
-        numIn = sc.nextInt();
+        numIn = sc.nextInt() % 26;
 
         String result = "";
         int chNum = 0;
