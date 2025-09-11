@@ -2,6 +2,12 @@ package com.ohgiraffers.level02.normal.book.model.dto;
 
 public class Application {
     public static void main(String[] args) {
+
+        int d = 10;
+        double e = 10.0;
+
+        System.out.println(d == e);
+
         //기본 생성자를 이용하여 인스턴스 생성 후 필드 값 출력
         BookDTO bookDTO1_1 = new BookDTO();
         bookDTO1_1.printInformation();
