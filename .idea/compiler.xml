@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="chat06-class-and-object.chat08-poly.main" target="17" />
+      <module name="chat06-class-and-object.chat08-poly.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -51,11 +51,10 @@ public class Application {
         }
 
         // 현재 기록된 학생들의 각각의 점수 평균을 구함
-        for (int i=0; i<studentArr.length; i++) {
+        for (int i=0; i<count; i++) {
             StudentDTO tmpStudent = studentArr[i];
             //int tmpAvg = tmpStudent.getAverage();
             System.out.println(tmpStudent.getInformation());
         }
-
     }
 }

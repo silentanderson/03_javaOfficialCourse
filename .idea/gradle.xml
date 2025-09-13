@@ -49,6 +49,27 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/chat06-class-and-object" />
+            <option value="$PROJECT_DIR$/chat06-class-and-object/chat08-poly" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chat08-poly" />
+        <option name="gradleHome" value="" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chat08-poly" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chat09-api" />
+        <option name="gradleHome" value="" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chat09-api" />
           </set>
         </option>
       </GradleProjectSettings>
