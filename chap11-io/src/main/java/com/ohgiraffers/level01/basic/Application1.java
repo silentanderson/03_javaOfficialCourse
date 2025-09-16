@@ -41,14 +41,12 @@ public class Application1 {
             fr = new FileReader(path+inFile);
 
             char[] carr = new char[(int) new File(path+inFile).length()];
-            fr.read(carr);
+            int readCount = fr.read(carr);   // 실제 글자 수를 변수에 할당
 
             // 화면 출력
-            if (fr != null) {
-                System.out.println("==== 파일 내용 출력 ====");
-                for(int i=0; i<carr.length; i++) {
-                    System.out.print(carr[i]);
-                }
+
+            for (int i=0;i<readCount;i++) {
+                System.out.print(carr[i]);
             }
 
         } catch (FileNotFoundException e) {
